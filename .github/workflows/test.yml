@@ -17,7 +17,7 @@ jobs:
     - name: List folders
       run: ls
     - name: Set up Node.js 18
-      run: actions/setup-node@v2
+      uses: actions/setup-node@v2
     - name: Install dependencies
       run: npm install
     - name: Run Test
