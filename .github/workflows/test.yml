@@ -1,0 +1,17 @@
+# .github/workflows/test.yml
+name: Test API
+# When it's trigger
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+# Tasks
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    # To clone code to work on
+    - name: clone
+      run: git clone https://asda
+      
