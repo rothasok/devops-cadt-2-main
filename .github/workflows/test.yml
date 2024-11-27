@@ -9,9 +9,11 @@ on:
 # Tasks
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     # To clone code to work on
     - name: clone
-      run: git clone https://asda
-      
+      run: git clone https://github.com/rothasok/devops-cadt-2-main.git
+    - name: List folders
+      run: ls
+
