@@ -3,9 +3,9 @@ name: Test API
 # When it's trigger
 on:
   push:
-    branches: main
+    branches: master
   pull_request:
-    branches: main
+    branches: master
 # Tasks
 jobs:
   test:
